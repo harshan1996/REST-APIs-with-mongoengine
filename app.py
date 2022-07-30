@@ -7,7 +7,7 @@ app = Flask(__name__)
 api = Api(app)
 
 app.config['MONGODB_SETTINGS'] = {
-    'host': 'mongodb+srv://Harshan:Mongo%401434@firstcluster.zxdpy3p.mongodb.net/firstAtlasDB?retryWrites=true&w=majority'
+    'host': 'mongodb+srv://Harshan:Password@firstcluster.zxdpy3p.mongodb.net/firstAtlasDB?retryWrites=true&w=majority'
 }
 
 initialize_db(app)
