@@ -5,7 +5,7 @@ from flask import Flask, jsonify, request
 
 application = Flask(__name__)
 
-connect(db="firstAtlasDB", host="mongodb+srv://Harshan:Mongo%401434@firstcluster.zxdpy3p.mongodb.net/?retryWrites=true&w=majority", alias="default")
+connect(db="firstAtlasDB", host="mongodb+srv://Harshan:Password@firstcluster.zxdpy3p.mongodb.net/?retryWrites=true&w=majority", alias="default")
 
 
 @application.route("/books/createBook", methods=['GET', 'POST'])
