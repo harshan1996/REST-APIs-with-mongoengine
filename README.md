@@ -24,9 +24,9 @@ Create and activate an virtual environment and run the command to install the de
 
 
 ### By default it will be running here:
-```bash
+
 http://127.0.0.1:8000/
-```
+
 
 
 
